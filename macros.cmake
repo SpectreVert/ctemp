@@ -64,6 +64,9 @@ endfunction()
 # the main course
 # >>
 
+# TODO: add NOINSTALL opt
+#       add LIBRARIES list
+#       add DEPENDS abilities
 function(XXX_build_executable target)
   cmake_parse_arguments(ARG "" "ROOT_DIRECTORY" "DEPENDS" ${ARGN})
 
